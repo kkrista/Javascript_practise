@@ -1,20 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Black and White Website</title>
     <style>
       body {
-        background-color: black;
-        color: white;
-        font-family: Arial, sans-serif;
+        background-color: #ffffff; /* White background */
+        color: #000000; /* Black text */
+        font-family: Arial, sans-serif; /* Default font */
+        margin: 0;
+        padding: 0;
       }
 
-      /* Add your custom styles here */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #000000; /* Black headings */
+      }
+
+      a {
+        color: #000000; /* Black links */
+        text-decoration: none; /* Remove underline */
+      }
+
+      a:hover {
+        text-decoration: underline; /* Add underline on hover */
+      }
+
+      p {
+        line-height: 1.6; /* Improved readability */
+      }
     </style>
   </head>
   <body>
-    <h1>Welcome to my Black and White Website!</h1>
-
-    <!-- Add your content here -->
+    <div class="container">
+      <h1>Welcome to Our Black and White Website</h1>
+      <p>This is a simple demonstration of a black and white website design.</p>
+      <p>You can add your content here...</p>
+      <p><a href="#">Learn More</a></p>
+    </div>
   </body>
 </html>

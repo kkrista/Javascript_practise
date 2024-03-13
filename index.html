@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Black and White Website</title>
+    <title>Photographer's Portfolio</title>
     <style>
       body {
         background-color: #ffffff; /* White background */
@@ -28,26 +28,30 @@
         color: #000000; /* Black headings */
       }
 
-      a {
-        color: #000000; /* Black links */
-        text-decoration: none; /* Remove underline */
+      .portfolio-item {
+        width: 30%;
+        margin: 1%;
+        float: left;
       }
 
-      a:hover {
-        text-decoration: underline; /* Add underline on hover */
-      }
-
-      p {
-        line-height: 1.6; /* Improved readability */
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Our Black and White Website</h1>
-      <p>This is a simple demonstration of a black and white website design.</p>
-      <p>You can add your content here...</p>
-      <p><a href="#">Learn More</a></p>
+      <h1>My Photography Portfolio</h1>
+      <div class="portfolio-item"></div>
+      <img src="path_to_image3.jpg" alt="Image 3" />
+      <h2>Image Title 3</h2>
+      <p>Image Description 3</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="path_to_image4.jpg" alt="Image 4" />
+      <h2>Image Title 4</h2>
+      <p>Image Description 4</p>
     </div>
   </body>
 </html>

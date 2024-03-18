@@ -1,12 +1,14 @@
 window.onload = function () {
   let emailState = false;
   let emailModal = document.getElementsByClassName("email-modal")[0];
-  let closeButton = document.getElementsByClassName("email-modal_close-btn")[0];
-  let emailInput = document.getElementsByClassName("email-modal_input")[0];
-  let emailButton = document.getElementById("email-modal_button")[0];
+  let closeButton = document.getElementsByClassName(
+    "email-modal__close-btn"
+  )[0];
+  let emailInput = document.getElementsByClassName("email-modal__input")[0];
+  let emailButton = document.getElementById("email-modal__button")[0];
   let thankContainer = document.getElementsByClassName("email-thank")[0];
   let declineOffer = document.getElementsByClassName(
-    "email-modal_decline-offer"
+    "email-modal__decline-offer"
   )[0];
 
   function emailIsValid(email) {

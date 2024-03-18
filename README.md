@@ -14,5 +14,5 @@ Welcome to the JavaScript Practice Playground repository! This project is design
 To get started with the JavaScript Practice Playground, simply clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/kkrista/blackandwhite.git
+git clone https://github.com/kkrista/Javascript_practise.git
 
